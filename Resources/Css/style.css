@@ -168,6 +168,7 @@ header{
     width: auto;
     float: left;
     margin-top: 20px;
+    
 }
 
 .main-nav {
@@ -200,16 +201,35 @@ header{
 }
 
 
-
-.icon-big{
+/*-----------------------------------------------*/
+/*Meals*/
+/*-----------------------------------------------*/
+.section-meals{
+    padding: 0;
     
 }
 
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+    background-color: aqua;
+}
+
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+    
+}
+
+.meal-photo{
+    width: 100%;
+    margin: 0;
+}
 
 
-
-
-
-
-
+.meal-photo img{
+    width: 100%;
+    height: auto;
+}
 
